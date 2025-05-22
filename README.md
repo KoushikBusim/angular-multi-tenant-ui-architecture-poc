@@ -28,7 +28,7 @@ This is a proof-of-concept (POC) project to demonstrate how to build a scalable,
 ---
 ## 🧭 Architecture Diagram
 
-![Architecture](docs/architecture diagram.png)
+![Architecture](docs/architecture-diagram.png)
 ---
 
 ## 🔁 Flow Overview
