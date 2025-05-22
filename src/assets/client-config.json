@@ -1,5 +1,6 @@
 {
   "client-a": {
+    "clientId": "client-a",
     "themeColor": "#ff5733",
     "logo": "logo-a.png",
     "features": {
@@ -16,6 +17,7 @@
     "profileFields": ["name", "email", "company"]
   },
   "client-b": {
+    "clientId": "client-b",
     "themeColor": "#3357ff",
     "logo": "logo-b.png",
     "features": {
