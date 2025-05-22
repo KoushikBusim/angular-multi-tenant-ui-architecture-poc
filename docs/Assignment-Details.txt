@@ -1,0 +1,32 @@
+Multi-Tenant Configuration POC
+
+Objective: Create a proof of concept for a multi-tenant Angular application where different tenants can have different configurations for both base pages and tenant-specific features.
+
+Requirements:
+
+1. Create a simple Angular application with:
+- A login page (doesn't need real authentication, just demonstrate tenant selection)
+- A dashboard page (base page for all tenants)
+- A profile page (base page with tenant-specific configurations)
+- A tenant-specific feature page (completely unique to certain tenants)
+
+2. Implement a configuration system that:
+- Loads tenant configuration from a JSON file or mock API
+- Controls which components/features are visible for each tenant
+- Applies tenant-specific styling (colors, logos, layouts)
+- Stores configuration in a state management system (NgRx preferred)
+
+3. Demonstrate reusable components that:
+- Render differently based on tenant configuration
+- Have tenant-specific validation rules
+- Can be enabled/disabled based on tenant settings
+
+4. Implement routing that:
+- Restricts access to features based on tenant configuration
+- Handles redirects appropriately when features aren't available
+
+5. Document your approach:
+- Explain the architecture decisions
+- Describe how this approach would scale to a larger application
+- Outline any performance considerations
+- Provide instructions for adding a new tenant configuration
