@@ -14,7 +14,10 @@
   </nav>
 
   <!-- Dashboard Content -->
-  <div class="dashboard-container">
+  <div
+    class="dashboard-container"
+    [ngStyle]="{ backgroundColor: config.themeColor + '20' }"
+  >
     <h2>Welcome to {{ config.clientId }}'s Dashboard</h2>
     <img [src]="config.logo" alt="Client Logo" height="60" />
     <button *ngIf="config.features.supporting.downloadReports">
