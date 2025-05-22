@@ -40,17 +40,7 @@ This is a proof-of-concept (POC) project to demonstrate how to build a scalable,
 ---
 
 ## 📂 Folder Structure
-src/app/
-  store/ # NgRx actions, reducer, selectors, effects
-  guards/ # Route guards based on config
-  login/ # LoginComponent (client selector)
-  dashboard/ # DashboardComponent with nav
-  profile/ # ProfileComponent with dynamic fields
-  analytics/ # Stubbed feature page
-  not-available/ # Fallback route component
-  routes.ts # All route configs
-main.ts # App bootstrap with store + router
-assets
+<pre lang="markdown"> ```plaintext src/app/ │ ├── store/ # NgRx actions, reducer, selectors, effects ├── guards/ # Route guards based on config ├── login/ # LoginComponent (client selector) ├── dashboard/ # DashboardComponent with nav ├── profile/ # ProfileComponent with dynamic fields ├── analytics/ # Stubbed feature page ├── not-available/ # Fallback route component │ ├── routes.ts # All route configs └── main.ts # App bootstrap with store + router ``` </pre>
 ---
 
 ## ➕ Adding a New Client
