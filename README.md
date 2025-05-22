@@ -69,9 +69,9 @@ Example:
 canActivate: [analyticsGuard]
 
 ## 🚀 Running Locally
-npm install
-ng serve
-Then navigate to:
+- npm install
+- ng serve
+- Then navigate to:
 📍 http://localhost:4200/login
 
 ## 🧠 Key Takeaways
