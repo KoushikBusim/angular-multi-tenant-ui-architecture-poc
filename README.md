@@ -26,9 +26,11 @@ This is a proof-of-concept (POC) project to demonstrate how to build a scalable,
 - ✅ README + Architecture Diagrams + Performance Notes
 
 ---
+
 ## 🧭 Architecture Diagram
 
 ![Architecture](docs/architecture-diagram.png)
+
 ---
 
 ## 🔁 Flow Overview
@@ -40,6 +42,11 @@ This is a proof-of-concept (POC) project to demonstrate how to build a scalable,
 5. **Components** subscribe to config via selectors
 6. **UI updates dynamically** — navbar, routes, features, styling
 7. **Guards** restrict access to unavailable features
+
+---
+
+## Assignment Details
+![Assignment](docs/Assignment-Details.txt)
 
 ---
 
