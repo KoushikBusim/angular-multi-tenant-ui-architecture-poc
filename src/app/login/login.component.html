@@ -1,0 +1,9 @@
+<h2>Select Client</h2>
+<button (click)="selectClient('client-a')">Client A</button>
+<button (click)="selectClient('client-b')">Client B</button>
+
+<div *ngIf="loading$ | async">Loading config...</div>
+
+<div *ngIf="error$ | async as err" class="error">
+  Failed to load client config: {{ err.message || err }}
+</div>

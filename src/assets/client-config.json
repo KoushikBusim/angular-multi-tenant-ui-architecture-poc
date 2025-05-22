@@ -1,0 +1,34 @@
+{
+  "client-a": {
+    "themeColor": "#ff5733",
+    "logo": "logo-a.png",
+    "features": {
+      "standAlone": {
+        "analytics": true,
+        "profileEditing": true,
+        "voiceTuning": true
+      },
+      "supporting": {
+        "downloadReports": true,
+        "customBranding": false
+      }
+    },
+    "profileFields": ["name", "email", "company"]
+  },
+  "client-b": {
+    "themeColor": "#3357ff",
+    "logo": "logo-b.png",
+    "features": {
+      "standAlone": {
+        "analytics": false,
+        "profileEditing": false,
+        "voiceTuning": false
+      },
+      "supporting": {
+        "downloadReports": false,
+        "customBranding": true
+      }
+    },
+    "profileFields": ["name", "phone"]
+  }
+}

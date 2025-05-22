@@ -1,0 +1,18 @@
+<div *ngIf="config$ | async as config">
+  <h2>Edit Profile</h2>
+
+  <form *ngIf="config.features.standAlone.profileEditing; else readOnly">
+    <div *ngFor="let field of config.profileFields; trackBy: trackByField">
+      <label>
+        {{ field | titlecase }}
+        <input type="text" name="{{ field }}" />
+      </label>
+      <br />
+    </div>
+    <button type="submit">Save</button>
+  </form>
+
+  <ng-template #readOnly>
+    <p>Profile editing is not enabled for this client.</p>
+  </ng-template>
+</div>

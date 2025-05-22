@@ -1,0 +1,24 @@
+<div *ngIf="config$ | async as config">
+  <!-- Navbar -->
+  <nav class="navbar">
+    <span class="logo">{{ config.clientId | titlecase }}</span>
+
+    <div class="nav-links">
+      <a
+        *ngFor="let link of getNavLinks(config); trackBy: trackByLabel"
+        (click)="handleClick(link.path)"
+      >
+        {{ link.label }}
+      </a>
+    </div>
+  </nav>
+
+  <!-- Dashboard Content -->
+  <div class="dashboard-container">
+    <h2>Welcome to {{ config.clientId }}'s Dashboard</h2>
+    <img [src]="config.logo" alt="Client Logo" height="60" />
+    <button *ngIf="config.features.supporting.downloadReports">
+      Download Reports
+    </button>
+  </div>
+</div>

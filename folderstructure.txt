@@ -1,0 +1,42 @@
+src/
+  main.ts                         ← Entry point
+  app/                            ← App bootstrap + layout shell
+    app.component.ts
+    app.routes.ts
+    layout/                       ← Navigation, shell, route layout logic
+      shell.component.ts
+  core/                           ← Global one-time setup things
+    services/
+      auth.service.ts
+      logger.service.ts
+    guards/
+      auth.guard.ts
+    interceptors/
+      auth.interceptor.ts
+    models/
+      user.model.ts
+    tokens/                       ← Injection tokens
+    core.module.ts (optional)    ← If you want a place to group core providers
+  features/                       ← Real business areas
+    dashboard/
+      dashboard.component.ts
+      dashboard.service.ts
+      dashboard.routes.ts
+      models/
+        chart-data.model.ts
+    profile/
+      profile.component.ts
+      profile.service.ts
+      profile.routes.ts
+  shared/                         ← Dumb and reusable
+    components/
+      button/
+        button.component.ts
+      card/
+        card.component.ts
+    pipes/
+      truncate.pipe.ts
+    directives/
+      autofocus.directive.ts
+    utils/
+      string-utils.ts
