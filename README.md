@@ -85,5 +85,5 @@ Special thanks to the team at Pradhi.ai for designing an assignment that was bot
 ## 📬 Let’s Talk
 If you’re curious about the architecture, tradeoffs, or want a walkthrough —
 I’d love to talk!
-→ [[Your LinkedIn]](https://www.linkedin.com/in/koushik-busim-13716092/)
-→ [Your Email](busimnk@gmail.com)
+→ [Koushik Busim@Linkedin](https://www.linkedin.com/in/koushik-busim-13716092/)
+→ [busimnk@gmail.com](busimnk@gmail.com)
